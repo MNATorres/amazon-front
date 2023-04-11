@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noImplicitAny": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "types": ["react", "vite/client"],
+    "typeRoots": ["node_modules/@types", "./src/types"]
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
+/*
+{
+  "compilerOptions": {
+    // Otras opciones de configuración de TypeScript aquí
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noImplicitAny": true,
+    "strict": true,
+    // Agregar la interfaz JSX.IntrinsicElements
+    "jsxImportSource": "react",
+    "types": ["react", "vite/client"],
+    "typeRoots": ["node_modules/@types", "./src/types"]
+  },
+  "include": ["src"]
+}
+
+*/
